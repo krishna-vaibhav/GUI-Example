@@ -1,0 +1,101 @@
+*{
+    box-sizing: border-box;
+}
+
+#head{
+    font-size: 60px;
+    margin: 5px;
+    align-items: center;
+    margin-left: 45%;
+    margin-right: 50%;
+    padding: 10px;
+    letter-spacing: 2px;
+}
+
+.container{
+    
+    display:flex;
+    flex-wrap: wrap;
+   
+    justify-content: center;
+}
+
+#name{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0px;
+
+
+}
+
+#occupation{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    color: darkgray;
+}
+
+#about{
+    text-align: left;
+}
+
+img
+{
+    width: 250px;
+    height: 250px;  
+}
+
+.card4
+{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    width: 500px;
+    margin-right: 15px;
+    margin-left: 15px;
+    transition: all 0.3s;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.1);
+
+}
+
+.card4:hover
+{
+    box-shadow: 0 20px 40px 0 rgba(1,1,1,1);
+}
+
+.text
+{
+    padding: 15px;
+    width: 250px;
+    background-color: white;
+    height: 250px;
+}
+
+.image{
+    width: 250px;
+    height: 250px;
+    
+}
+
+body
+{
+    background-color: #F0F3F4;
+}
+
+.fas
+{
+    color:#fd830f;
+    margin: 5px;
+    padding-top: 10px;
+    font-size: 25px;
+    
+}
+
+.far
+{
+    color:#fd830f;
+    margin: 5px;
+    padding-top: 10px;
+    font-size: 25px;
+}
+
